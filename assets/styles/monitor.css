@@ -1,0 +1,223 @@
+ @keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.logger-file-size{
+    font-size:0.8rem; 
+    color:#9caeb8; 
+    float:right; 
+    margin-right:25px; 
+    margin-top:10px;
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+}
+.logger-balance{
+    color: lightgreen; 
+    font-weight: 500; 
+    font-size: 1rem;
+}
+.logger-risk-image{
+    width: 64px; 
+    height: 64px;
+}
+.logger-icon-text-desc{
+    margin-left:10px; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-size: 0.875rem; 
+    line-height: 1.6; 
+    color: #9caeb8; 
+    font-weight: 500; 
+    display:flex; 
+    justify-content: end;
+    align-self: flex-end;
+}
+.logger-icon-text{
+    margin-left:10px;
+    color:white; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-size: 1.75rem; 
+    line-height: 1.5; 
+    font-weight: 500;
+}
+.logger-icon-container{
+    display:flex; 
+    justify-content: end;
+    align-self: flex-end; 
+    margin:15px;
+}
+.logger-column{
+    padding-top: 50px; 
+    text-align: center; 
+    float:left; 
+    width:31%; 
+    background-color: #111417; 
+    margin:3px; 
+    padding-bottom:25px;
+}
+.logger-bot-running{
+    font-weight: 600;
+    animation: blinker 1s linear infinite; 
+    width: 60%; 
+    border: 1px solid #4CAF50; 
+    color: #4CAF50; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    border-radius: 16px; 
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+    background-color: #4caf501f; 
+    font-size: 1rem;
+}
+.logger-bot-stopped{
+    font-weight: 600;
+    width: 60%; 
+    border: 1px solid #e91e1e; 
+    color: #e91e1e; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    border-radius: 16px; 
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+    background-color: #e91e1e1f; 
+    font-size: 1rem;
+}
+.logger-h6{
+    margin-bottom:25px; 
+    color: #9caeb8; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-weight: 700;
+    font-size: 1.31rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.logger-h3{
+    margin-bottom:25px; 
+    color: white; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.logger-iframe{
+    margin-top:25px; 
+    height:450px; 
+    width:90%; 
+    border:0px; 
+    padding:0px;
+}
+.logger-button{
+    margin-top:10px; 
+    background-color: #1b2838; 
+    cursor: pointer; 
+    user-select: none; 
+    vertical-align: middle; 
+    appearance: none; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    min-width: 64px; 
+    color: #75abec; 
+    box-shadow: none; 
+    text-transform: none; 
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 1.429; 
+    width: 100%; 
+    max-width: 20rem; 
+    outline: 0px; 
+    text-decoration: none; 
+    border-width: 0px; 
+    border-radius: 8px; 
+    padding: 10px; 
+    text-align: center;
+}
+.logger-button:hover{
+    background-color: #75abec; 
+    color: #1b2838;
+}
+.logger-columns-content{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1024px){
+    .logger-column{
+        width:100%; 
+        margin: 0 auto;
+        margin-bottom:20px;
+    }
+    .logger-button{
+        max-width: none;
+        width:80%;
+        font-size: 2.5rem;
+    }
+    .logger-columns-content{
+        display: grid; 
+        justify-content: center;
+    }
+    .logger-h3{
+        font-size: 4rem;
+    }
+    .logger-risk-image{
+        width: 200px;
+        height: 200px;
+    }
+    .logger-bot-stopped{
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .logger-bot-running{
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .logger-h6{
+        font-size: 3rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 4rem;
+        font-size: 3rem;
+    }
+    .logger-file-size{
+        font-size: 1.8rem;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    .logger-balance{
+        font-size: 3rem;
+    }
+    .main-title-container{
+        display:block
+    }
+    .main-section-title{
+        font-size: 4rem;
+    }
+    .main-section-desc{
+        font-size: 2rem;
+    }
+    .main-title{
+        width:100% !important;
+    }
+    .main-right-container-title{
+        width:100% !important;
+        display: block;
+    }
+    .main-separator-title{
+        display:none;
+    }
+    .logger-icon-container{
+        justify-content: center;
+    }
+    .logger-icon-text{
+        font-size: 3rem;
+    }
+    .logger-icon{
+        width:5rem;
+        height:5rem;
+    }
+    .logger-icon-text-desc{
+        font-size:2rem;
+    }
+}

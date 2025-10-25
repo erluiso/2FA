@@ -1,0 +1,61 @@
+header{
+    height:100px; 
+    width:100%; 
+    border-bottom:1px solid #262d30; 
+    background-color: #06080A;
+}
+
+.header-content{
+    width:100%; 
+    height: 100px;
+    display:flex;
+}
+
+.header-content-2{
+    width:50%; 
+    height: 100px;
+    display:grid; 
+    align-items: anchor-center; 
+    padding-left: 20px;
+    float:left;
+}
+
+.header-logout{
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-weight: 500; 
+    color:white; 
+    margin-right: 20px;
+}
+
+.header-logout-icon{
+    width: 24px !important;
+    height: 24px !important;
+}
+
+@media (max-width: 1024px){
+    header{
+        text-align:center;
+        display: inline-table;
+    }
+    #logo{
+        width: 30rem;
+        margin: 25px;
+    }
+    .header-content{
+        text-align:center;
+        width:100%; 
+        height: 200px;
+    }
+    .header-content-2{
+        text-align:center;
+        width:100%; 
+        height: 200px;
+    }
+    .header-logout{
+        font-size:2.5rem;
+    }
+    .header-logout-icon{
+        width: 54px !important;
+        height: 54px !important;
+    }
+}

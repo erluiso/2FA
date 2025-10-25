@@ -1,0 +1,268 @@
+body{
+    border: 0px; 
+    padding:0px; 
+    margin:0px;
+}
+
+#root{
+    border:0px; 
+    padding:0px; 
+    margin:0px; 
+    display:flex; 
+    flex-wrap:wrap;
+}
+
+ @keyframes logo-animation {
+    99% {
+        transition-delay: 4000ms;
+        filter: gray;
+        -webkit-filter: blackscale(1);
+        filter: grayscale(1);
+    }
+}
+.login-logo{
+    width:calc(50% - 1px); 
+    float:left; 
+    height:100%; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    border-right:1px solid #262d30;
+}
+.login-label-container{
+    float:left; 
+    width:100%;
+}
+.login-input-text{
+    padding-top: 23px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    padding-right: 20px !important;
+    height: 3.5rem;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    color: rgb(235, 242, 245);
+    background-color: #1b2124;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: 1px solid transparent;
+}
+.login-input-label{
+    /*color: #589BF3;*/
+    color: #9caeb7;
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-size: 0.8rem;
+    position: absolute;
+    z-index: 1;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-top: 28px;
+}
+.login-input-container{
+    float:left; 
+    width:100%; 
+    position: relative;
+}
+input:focus{
+  outline: none;
+}
+.login-label-login{
+    margin-bottom:20px; 
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    font-weight: 700; 
+    font-size: 1.75rem; 
+    line-height: 1.5;
+}
+.login-input-text:focus{
+    border: 1px solid #589BF3;
+    background-color:#0A1B30;
+}
+.login-button{
+    margin-top:10px; 
+    background-color: #75abec; 
+    cursor: pointer; 
+    user-select: none; 
+    vertical-align: middle; 
+    appearance: none; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    color: #1b2838; 
+    box-shadow: none; 
+    text-transform: none; 
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 1.429; 
+    width: 100%; 
+    outline: 0px; 
+    text-decoration: none; 
+    border-width: 0px; 
+    border-radius: 8px; 
+    padding: 10px; 
+    text-align: center;
+    margin-top: 20px;
+}
+.login-disabled-button{
+    margin-top:10px; 
+    background-color: #262d30; 
+    user-select: none; 
+    vertical-align: middle; 
+    appearance: none; 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; 
+    color: #77878f; 
+    box-shadow: none; 
+    text-transform: none; 
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 1.429; 
+    width: 100%; 
+    outline: 0px; 
+    text-decoration: none; 
+    border-width: 0px; 
+    border-radius: 8px; 
+    padding: 10px; 
+    text-align: center;
+    margin-top: 20px;
+}
+.login-right-column{
+    width:50%; 
+    float:left;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.login-form-content{
+    width:50%; 
+    margin:0 auto; 
+    display:grid;
+}
+body{
+    background-color:#06080a; 
+    height:100%; 
+    margin:0;
+}
+.logo-mobile{
+    margin:0 auto; 
+    margin-bottom: 90px; 
+    display: none;
+}
+.login-trouble{
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.3;
+    color: #589BF3;
+    transition: background-size 0.25s ease-in;
+    float: right;
+    cursor: pointer;
+    background-image: linear-gradient(#589BF3, #589BF3);
+    background-size: 0% 1px;
+}
+.login-remember{
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.3;
+    color: #9CAEB8;
+    transition: background-size 0.25s ease-in;
+    margin-top:25px;
+    cursor: pointer;
+    background-image: linear-gradient(#589BF3, #589BF3);
+    background-size: 0% 1px;
+    margin-left: 3px;
+}
+.login-trouble:hover{
+    text-decoration:underline;
+}
+input[type=checkbox]{
+    accent-color: #76ade9;
+    background-color: #06080a;
+}
+.twofa-input-otp{
+    text-align: center;               
+    padding: 5px;
+    font-size: 20px;
+    height: 3rem;
+    width: 3rem;
+    margin: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    color: rgb(235, 242, 245);
+    background-color: #1b2124;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.twofa-input-otp:focus{
+    border: 1px solid #589BF3;
+    background-color:#0A1B30;
+}
+.login-options-container{
+    width: 50%; 
+    float: left; 
+    padding-top:25px;
+}
+.p5px{
+    padding: 5px;
+}
+.twofa-sreen-desc{
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+}
+.mt15px{
+    margin-top:15px;
+}
+.mt30px{
+    margin-top:30px;
+}
+.twofa-seconds-desc{
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: #9CAEB8;
+    font-weight: 500;
+    padding-top: 10px;
+    display: inline-block;
+}
+.twofa-error-container{
+    width:calc(100% - 20px); 
+    background-color:#3A0A12; 
+    color:#E99AA8; 
+    padding:10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-top: 15px;
+}
+.twofa-error-icon-container{
+    float:left;
+    width: 30px; 
+    padding-top: 5px;
+}
+.twofa-error-text-container{
+    float:left; 
+    width:calc(100% - 40px); 
+    font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans';
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px){
+    .login-logo{
+        display: none;
+    }
+    .login-right-column{
+        width: 100%;
+    }
+    .login-form-content{
+        width:90%;
+    }
+    .logo-mobile{
+        display: inline-block;
+    }
+}

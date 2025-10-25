@@ -1,0 +1,27 @@
+.home-kpi-container{
+    float:left; width:calc(25% - 1px); border-right:1px solid #262d30; border-bottom:1px solid #262d30; height:20vh;display: flex; align-items: center; align-items: center; justify-content: center;
+}
+.home-kpi-title{
+    text-align: left; margin-left: 10px; color: white; font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; font-size: 1.75rem; line-height: 1.5; font-weight: 500;display:inline-block;
+}
+.home-kpi-desc{
+    text-align: left; font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; font-size: 0.875rem; line-height: 1.6; color: #9caeb8; font-weight: 500; display: flex ; align-self: flex-end;
+}
+.home-add-new-kpi-container{
+    background-color: #111417; float:left; width:calc(25% - 1px); border-right:1px solid #262d30; border-bottom:1px solid #262d30; height:20vh;display: flex; align-items: center; align-items: center; justify-content: center;
+}
+.home-add-new-kpi-text{
+    text-align: left; font-family: 'Plus Jakarta Sans', sans-serif, 'Spline Sans Mono', monospace, 'Josefin Sans'; font-size: 0.875rem; line-height: 1.6; color: #255fa5; font-weight: 700; display: flex ; align-self: flex-end;
+}
+.home-title-container{
+    padding-left:50px; 
+    padding-top:0px;
+    display: flex;
+    border-bottom:1px solid #262d30; background-color:#111417;
+}
+.home-main-title{
+    width:calc(50% - 35px);height: 150px; display: flex; align-items: center;
+}
+.home-section-desc{
+    margin-top: 15px;
+}
