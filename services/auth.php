@@ -61,6 +61,9 @@
             if($_SESSION['token'] != $_GET['token'])
                 redirec(1,12);
 
+			if(time() > $_SESSION['expired'])
+                redirec(1,47);
+
             if($_SERVER['REQUEST_METHOD'] != 'POST' 
                 || !isset($_POST["1"]) || !isset($_POST["2"]) 
                 || !isset($_POST["3"]) || !isset($_POST["4"]) 
@@ -89,4 +92,5 @@
             redirec();
             break;
     }
+
 ?>
